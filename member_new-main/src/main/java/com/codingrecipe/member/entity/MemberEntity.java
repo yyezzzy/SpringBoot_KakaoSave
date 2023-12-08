@@ -14,7 +14,7 @@ public class MemberEntity {
     @Id // pk 지정
     @GeneratedValue(strategy = GenerationType.IDENTITY) // auto_increment
     private Long id;
-
+//    ALTER TABLE kakao_members AUTO_INCREMENT = 1;
     @Column(unique = true) // unique 제약조건 추가
     private String memberEmail;
 
